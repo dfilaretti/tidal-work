@@ -1,0 +1,5 @@
+d1 $ sound "[hi lo hi] [hi [lo lo:1] hi:2 hi]"
+
+d2 $ s "kick*4? [clap cpu:2?]"
+
+d3 $ n "~ 2 ~ 4*4? 2 [3 2?] [8, 5?] 9" # s "[cpu, cpu2]"
