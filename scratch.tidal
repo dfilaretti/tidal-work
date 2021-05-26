@@ -1,5 +1,7 @@
-d1 $ sound "[hi lo hi] [hi [lo lo:1] hi:2 hi]"
+d1 $ sound "[hi ~ hi:2] [hi [lo lo:1] hi:2 hi]" # vowel "e"
 
-d2 $ s "kick*4? [clap cpu:2?]"
+d2 $ s "kick:4*4? [[clap:3, ~ clap?] cpu:2?]"
 
 d3 $ n "~ 2 ~ 4*4? 2 [3 2?] [8, 5?] 9" # s "[cpu, cpu2]"
+
+d4 $ n "~ [1 <1 2 3 4>?] 2 [3 6?]" # s "kurt" # cut 1 # vowel "a"

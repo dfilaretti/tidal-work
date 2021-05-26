@@ -88,8 +88,8 @@ d1 $ n "{0 1, 2 3 4}" # sound "alphabet"
 -- Video explanation: https://www.youtube.com/watch?v=h_f11uago28&t=822s
 
 -- The first three cycles of this looks like this:
--- |ababab|
--- |cdecde|
+-- |ababab ababab|
+-- |cdecde cdecde|
 
 -- What's happening? Well Tidal aligns the first subsequence, "0 1", to fit
 -- the cycle, as before. But then it fits the others to it *stepwise*. So
@@ -148,20 +148,29 @@ d1 $ sound "hi <arpy arpy:1 arpy:2 arpy:3>"
 -- are shorter, using the "<>", "!", "[]" and/or "." introduced above.
 
 d1 $ sound "kick snare snare"
+d1 $ sound "kick snare !"
 
 d1 $ sound "kick [snare snare]"
+d1 $ sound "kick snare*2"
 
 d1 $ sound "kick snare kick snare kick snare"
+d1 $ sound "[kick snare]*3"
 
 d1 $ n "0 [1 2 3]/3" # sound "cpu2"
+d1 $ n "0 <1 2 3>" # sound "cpu2"
 
 d1 $ n "[0 0 2] [4 5 6 7] [4 1] [0 3 0 3]" # sound "cpu2"
+d1 $ n "0 0 2 . 4 5 6 7 . 4 1 . 0 3 0 3" # sound "cpu2"
+d1 $ n "0 ! 2 . 4 5 6 7 . 4 1 . [0 3]*2" # sound "cpu2"
 
 d1 $ sound "kick snare kick snare kick snare clap"
+d1 $ sound "[kick snare]!3 clap" --
 
 d1 $ sound "[kick snare kick snare kick snare] clap"
+d1 $ sound "[kick snare]*3 clap"
 
 d1 $ sound "bd sd sd sd bd [sd sd sd]"
+d1 $ sound "bd sd!3 bd sd*3"
 
 -- Trying to make code as short as possible is called "golfing" for some reason.
 -- It can be useful as a form of practice, but sometimes longer code
