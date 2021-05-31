@@ -1,0 +1,37 @@
+808			  bend			dorkbot			hh27			msg			sid
+808bd			bev			dr			hit			mt			sine
+808cy			bin			dr2			hmm			mute			sitar
+808hc			birds			dr55			ho			newnotes		sn
+808ht			birds3			dr_few			hoover			noise			space
+808lc			bleep			drum			house			noise2			speakspell
+808lt			blip			drumtraks		ht			notes			speech
+808mc			blue			e			if			numbers			speechless
+808mt			bottle			east			ifdrums			oc			speedupdown
+808oh			breaks125		electro1		incoming		odx			stab
+808sd			breaks152		em2			industrial		off			stomp
+909			  breaks157		erk			insect			outdoor			subroc3d
+breaks165	f			invaders		pad			sugar
+README.md		breath			feel			jazz			padlong			sundance
+ab			bubble			feelfx			jungbass		pebbles			tabla
+ade			can			fest			jungle			perc			tabla2
+ades2			casio			fire			juno			peri			tablex
+ades3			cb			flick			jvbass			pluck			tacscan
+ades4			cc			fm			kicklinn		popkick			tech
+alex			chin			foo			koy			print			techno
+alphabet		circus			future			kurt			proc			tink
+amencutup		clak			gab			latibro			procshort		tok
+armora			click			gabba			led			psr			toys
+arp			clubkick		gabbaloud		less			rave			trump
+arpy			co			gabbalouder		lighter			rave2			ul
+auto			coins			glasstap		linnhats		ravemono		ulgab
+baa			control			glitch			lt			realclaps		uxay
+baa2			cosmicg			glitch2			made			reverbkick		v
+bass			cp			gretsch			made2			rm			voodoo
+bass0			cr			gtr			mash			rs			wind
+bass1			crow			h			mash2			sax			wobble
+bass2			d			hand			metal			sd			world
+bass3			db			hardcore		miniyeah		seawolf			xmas
+bassdm			diphone			hardkick		monsterb		sequential		yeah
+bassfoo			diphone2		haw			moog			sf
+battles			dist			hc			mouth			sheffield
+bd			dork2			hh			mp3			short
